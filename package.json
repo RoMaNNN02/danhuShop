@@ -1,0 +1,24 @@
+{
+  "name": "danhushop",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/RoMaNNN02/danhuShop#readme",
+  "bugs": {
+    "url": "https://github.com/RoMaNNN02/danhuShop/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RoMaNNN02/danhuShop.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
+}

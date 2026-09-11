@@ -1,0 +1,485 @@
+<!DOCTYPE html><html lang="ru"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FASHION — Магазин одежды</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="logo">
+        <h1>FASHION<span>.</span></h1>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#men">Мужское</a></li>
+          <li><a href="#women">Женское</a></li>
+          <li><a href="#new">Новинки</a></li>
+          <li><a href="#sale">Скидки</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <form>
+          <input type="search" placeholder="Поиск одежды...">
+          <button type="submit">🔍</button>
+        </form>
+
+        <button type="button">👤</button>
+
+        <button type="button">
+          🛒
+          <span>0</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <span>НОВАЯ КОЛЛЕКЦИЯ 2026</span>
+
+          <h2>Одежда, которая говорит за тебя</h2>
+
+          <p>
+            Современная одежда для тех, кто хочет выглядеть стильно каждый день.
+          </p>
+
+          <a href="#products"> Смотреть коллекцию </a>
+        </div>
+      </section>
+
+      <section class="categories">
+        <header>
+          <h2>Категории</h2>
+          <p>Выбери одежду под свой стиль</p>
+        </header>
+
+        <div class="category-list">
+          <article class="category">
+            <div>👕</div>
+            <h3>Футболки</h3>
+            <p>Современные модели</p>
+          </article>
+
+          <article class="category">
+            <div>🧥</div>
+            <h3>Куртки</h3>
+            <p>Для любого сезона</p>
+          </article>
+
+          <article class="category">
+            <div>👖</div>
+            <h3>Брюки</h3>
+            <p>Комфорт и стиль</p>
+          </article>
+
+          <article class="category">
+            <div>👟</div>
+            <h3>Обувь</h3>
+            <p>Новые коллекции</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="products" id="products">
+        <header>
+          <div>
+            <h2>Популярные товары</h2>
+
+            <p>Лучшие модели нашей коллекции</p>
+          </div>
+
+          <label>
+            Сортировка:
+
+            <select>
+              <option>По популярности</option>
+              <option>Сначала дешевые</option>
+              <option>Сначала дорогие</option>
+              <option>Новинки</option>
+            </select>
+          </label>
+        </header>
+
+        <div class="products-grid">
+          <article class="product-card">
+            <div class="product-image">
+              <span class="sale"> -30% </span>
+
+              <button>♡</button>
+
+              <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab" alt="Белая футболка">
+            </div>
+
+            <div class="product-info">
+              <p>Футболки</p>
+
+              <h3>Classic White T-Shirt</h3>
+
+              <div class="rating">★★★★★</div>
+
+              <div class="price">
+                <strong>$29</strong>
+                <del>$42</del>
+
+                <button>+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <span class="new"> NEW </span>
+
+              <button>♡</button>
+
+              <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3" alt="Джинсовая куртка">
+            </div>
+
+            <div class="product-info">
+              <p>Куртки</p>
+
+              <h3>Denim Oversize Jacket</h3>
+
+              <div class="rating">★★★★☆</div>
+
+              <div class="price">
+                <strong>$89</strong>
+
+                <button>+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <button>♡</button>
+
+              <img src="https://images.unsplash.com/photo-1548883354-7622d03aca27" alt="Черные брюки">
+            </div>
+
+            <div class="product-info">
+              <p>Брюки</p>
+
+              <h3>Black Cargo Pants</h3>
+
+              <div class="rating">★★★★★</div>
+
+              <div class="price">
+                <strong>$65</strong>
+
+                <button>+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <span class="sale"> -20% </span>
+
+              <button>♡</button>
+
+              <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5" alt="Кожаная куртка">
+            </div>
+
+            <div class="product-info">
+              <p>Куртки</p>
+
+              <h3>Premium Leather Jacket</h3>
+
+              <div class="rating">★★★★★</div>
+
+              <div class="price">
+                <strong>$159</strong>
+
+                <del>$199</del>
+
+                <button>+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <span class="new"> NEW </span>
+
+              <button>♡</button>
+
+              <img src="https://images.unsplash.com/photo-1627225924765-552d49cf47ad" alt="Серая толстовка">
+            </div>
+
+            <div class="product-info">
+              <p>Худи</p>
+
+              <h3>Oversize Gray Hoodie</h3>
+
+              <div class="rating">★★★★☆</div>
+
+              <div class="price">
+                <strong>$74</strong>
+
+                <button>+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <button>♡</button>
+
+              <img src="https://images.unsplash.com/photo-1603252109303-2751441dd157" alt="Рубашка">
+            </div>
+
+            <div class="product-info">
+              <p>Рубашки</p>
+
+              <h3>Casual Cotton Shirt</h3>
+
+              <div class="rating">★★★★★</div>
+
+              <div class="price">
+                <strong>$59</strong>
+
+                <button>+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <span class="sale"> -25% </span>
+
+              <button>♡</button>
+
+              <img src="https://images.unsplash.com/photo-1552902865-b72c031ac5ea" alt="Бежевый свитер">
+            </div>
+
+            <div class="product-info">
+              <p>Свитера</p>
+
+              <h3>Soft Beige Sweater</h3>
+
+              <div class="rating">★★★★★</div>
+
+              <div class="price">
+                <strong>$52</strong>
+
+                <del>$69</del>
+
+                <button>+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <span class="new"> NEW </span>
+
+              <button>♡</button>
+
+              <img src="https://images.unsplash.com/photo-1594633312681-425c7b97ccd1" alt="Черное платье">
+            </div>
+
+            <div class="product-info">
+              <p>Платья</p>
+
+              <h3>Elegant Black Dress</h3>
+
+              <div class="rating">★★★★★</div>
+
+              <div class="price">
+                <strong>$99</strong>
+
+                <button>+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <button>♡</button>
+
+              <img src="https://images.unsplash.com/photo-1542272604-787c3835535d" alt="Синие джинсы">
+            </div>
+
+            <div class="product-info">
+              <p>Джинсы</p>
+
+              <h3>Classic Blue Jeans</h3>
+
+              <div class="rating">★★★★☆</div>
+
+              <div class="price">
+                <strong>$69</strong>
+
+                <button>+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <span class="sale"> -15% </span>
+
+              <button>♡</button>
+
+              <img src="https://images.unsplash.com/photo-1520975954732-35dd22299614" alt="Черная куртка">
+            </div>
+
+            <div class="product-info">
+              <p>Верхняя одежда</p>
+
+              <h3>Urban Black Jacket</h3>
+
+              <div class="rating">★★★★★</div>
+
+              <div class="price">
+                <strong>$119</strong>
+
+                <del>$140</del>
+
+                <button>+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <button>♡</button>
+
+              <img src="https://images.unsplash.com/photo-1576995853123-5a10305d93c0" alt="Джинсовая куртка">
+            </div>
+
+            <div class="product-info">
+              <p>Верхняя одежда</p>
+
+              <h3>Street Denim Coat</h3>
+
+              <div class="rating">★★★★☆</div>
+
+              <div class="price">
+                <strong>$105</strong>
+
+                <button>+</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-image">
+              <span class="new"> NEW </span>
+
+              <button>♡</button>
+
+              <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b" alt="Модный образ">
+            </div>
+
+            <div class="product-info">
+              <p>Коллекция</p>
+
+              <h3>Modern Street Look</h3>
+
+              <div class="rating">★★★★★</div>
+
+              <div class="price">
+                <strong>$129</strong>
+
+                <button>+</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="sale-banner" id="sale">
+        <div>
+          <span> ТОЛЬКО ЭТУ НЕДЕЛЮ </span>
+
+          <h2>Большая распродажа</h2>
+
+          <p>Скидки до 50% на избранные товары.</p>
+
+          <a href="#products"> Смотреть скидки </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <section>
+          <h2>FASHION<span>.</span></h2>
+
+          <p>
+            Современный интернет-магазин одежды. Стильные вещи для мужчин и
+            женщин.
+          </p>
+        </section>
+
+        <section>
+          <h3>Магазин</h3>
+
+          <ul>
+            <li>
+              <a href="#">Новинки</a>
+            </li>
+
+            <li>
+              <a href="#">Мужская одежда</a>
+            </li>
+
+            <li>
+              <a href="#">Женская одежда</a>
+            </li>
+
+            <li>
+              <a href="#">Обувь</a>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Помощь</h3>
+
+          <ul>
+            <li>
+              <a href="#">Доставка</a>
+            </li>
+
+            <li>
+              <a href="#">Оплата</a>
+            </li>
+
+            <li>
+              <a href="#">Возврат</a>
+            </li>
+
+            <li>
+              <a href="#">FAQ</a>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Контакты</h3>
+
+          <address>
+            <p>Email: fashion@example.com</p>
+
+            <p>Телефон: +380 00 000 00 00</p>
+
+            <p>Украина</p>
+          </address>
+        </section>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 FASHION. Все права защищены.</p>
+
+        <p>Сделано с ❤️</p>
+      </div>
+    </footer>
+  
+
+<script src="/danhuShop.59712999.js"></script></body></html>
